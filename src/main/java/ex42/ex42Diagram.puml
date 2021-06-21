@@ -1,0 +1,17 @@
+@startuml
+
+class Main{
+    scanInfo
+    printInfo
+}
+
+class NameScanner{
+    scanInfo
+    return main
+}
+
+class PrintInfo{
+    Print %10s last %10s first %10s salary
+}
+
+@enduml
